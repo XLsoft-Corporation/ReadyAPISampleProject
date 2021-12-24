@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:restMockAction name="/v2/pet/{petId}" method="GET" resourcePath="/v2/pet/{petId}" id="b1468e4d-d874-461e-8dad-c6856a2092b8" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="b1468e4d-d874-461e-8dad-c6856a2092b8fileName">%2Fv2%2Fpet%2F%7BpetId%7D</con:setting></con:settings><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:routeScript/><con:response name="Response 1" id="497b0eb1-440c-4656-ab41-0fdc4a73e61d" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent/></con:response><con:response name="Response 2" id="f8b832f4-f9c3-47d8-9d0c-80b7626963a1" httpResponseStatus="200" mediaType="application/xml" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200035a000a636f6d707265737365644c000b636f6d7072657373696f6e74003d4c636f6d2f657669776172652f736f617075692f696d706c2f737570706f72742f436f6d7072657373656456616c756524436f6d7072657373696f6e3b5b0004646174617400025b427870007e72003b636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c756524436f6d7072657373696f6e00000000000000001200007872000e6a6176612e6c616e672e456e756d000000000000000012000078707400044e4f4e4570"><con:settings/><con:responseContent><![CDATA[<Pet>
+   <id>0</id>
+   <Category>
+      <id>0</id>
+      <name>string</name>
+   </Category>
+   <name>doggie</name>
+   <photoUrlss>
+      <photoUrl>string</photoUrl>
+   </photoUrlss>
+   <tagss>
+      <tag>
+         <id>0</id>
+         <name>string</name>
+      </tag>
+   </tagss>
+   <status>available</status>
+</Pet>]]></con:responseContent></con:response><con:response name="Response 3" id="878c61b3-60c4-414a-b235-415c3397518e" httpResponseStatus="400" mediaType="application/json"><con:settings/><con:responseContent/></con:response><con:response name="Response 4" id="82b4cdcd-e1b8-4f0f-8308-abb2b5505ea0" httpResponseStatus="400" mediaType="application/xml"><con:settings/><con:responseContent/></con:response><con:response name="Response 5" id="d3bc773a-e1c0-415d-bfff-c3a41c37cc0b" httpResponseStatus="404" mediaType="application/json"><con:settings/><con:responseContent/></con:response><con:response name="Response 6" id="ba63ec7c-2061-4e18-9eb4-8e3e581042f0" httpResponseStatus="404" mediaType="application/xml"><con:settings/><con:responseContent/></con:response></con:restMockAction>
