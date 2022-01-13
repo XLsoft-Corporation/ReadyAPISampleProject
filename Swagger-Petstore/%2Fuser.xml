@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource id="b3890239-bf74-45d8-a4da-4569b7d60af6" name="/user" path="/user" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="b3890239-bf74-45d8-a4da-4569b7d60af6fileName">%2Fuser</con:setting></con:settings><con:parameters/><con:method id="44be39cd-f290-4993-8772-67c14d129914" method="POST" name="createUser"><con:description>This can only be done by the logged in user.&#13;
+<con:resource id="b3890239-bf74-45d8-a4da-4569b7d60af6" name="/user" path="/user" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="b3890239-bf74-45d8-a4da-4569b7d60af6fileName">%2Fuser</con:setting></con:settings><con:parameters/><con:method id="44be39cd-f290-4993-8772-67c14d129914" method="POST" name="createUser"><con:description>This can only be done by the logged in user.&#13;
 Create user</con:description><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/><con:sampleContent>{&#13;
   "id" : 0,&#13;
   "username" : "string",&#13;
