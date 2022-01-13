@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:restMockAction id="0827f412-608f-403b-a8f6-47af69b5ed30" method="GET" name="/v2/pet/findByTags" resourcePath="/v2/pet/findByTags" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="0827f412-608f-403b-a8f6-47af69b5ed30fileName">%2Fv2%2Fpet%2FfindByTags</con:setting></con:settings><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:routeScript/><con:response dataSource="" httpResponseStatus="200" id="5bd4e606-c0cc-418b-87ae-a9b5940b433a" mediaType="application/json" name="Response 1"><con:settings/><con:responseContent/></con:response><con:response compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200035a000a636f6d707265737365644c000b636f6d7072657373696f6e74003d4c636f6d2f657669776172652f736f617075692f696d706c2f737570706f72742f436f6d7072657373656456616c756524436f6d7072657373696f6e3b5b0004646174617400025b427870007e72003b636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c756524436f6d7072657373696f6e00000000000000001200007872000e6a6176612e6c616e672e456e756d000000000000000012000078707400044e4f4e4570" dataSource="" httpResponseStatus="200" id="b229ba36-7c07-4edf-bc03-0ca48df20c53" mediaType="application/xml" name="Response 2"><con:settings/><con:responseContent><![CDATA[<Pet>
+   <id>0</id>
+   <Category>
+      <id>0</id>
+      <name>string</name>
+   </Category>
+   <name>doggie</name>
+   <photoUrlss>
+      <photoUrl>string</photoUrl>
+   </photoUrlss>
+   <tagss>
+      <tag>
+         <id>0</id>
+         <name>string</name>
+      </tag>
+   </tagss>
+   <status>available</status>
+</Pet>]]></con:responseContent></con:response><con:response dataSource="" httpResponseStatus="400" id="b0e2d22e-d955-49a8-9b43-beffdc4f07ca" mediaType="application/json" name="Response 3"><con:settings/><con:responseContent/></con:response><con:response dataSource="" httpResponseStatus="400" id="32e11cec-51fb-4582-b0d0-8c954643ffba" mediaType="application/xml" name="Response 4"><con:settings/><con:responseContent/></con:response></con:restMockAction>
